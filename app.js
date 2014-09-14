@@ -3,6 +3,10 @@ var app = express();
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 
+var UserStore = require('./models/User.js');
+var PostStore = require('./models/Post.js');
+var VoteStore = require('./models/Vote.js');
+
 app.set("views", "./views");
 app.set("view engine", "jade");
 
