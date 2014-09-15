@@ -10,6 +10,6 @@
         "stylus": "*",
         "body-parser": "*",
         "cookie-parser": "*",
-        "mongoose": "*"
+        "mongodb": "*"
     }
 }

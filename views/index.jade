@@ -1,4 +1,7 @@
 extends layout
 
 block content
-    | haay
+    form(method="post" action="/")
+        input(type="text" name="inputtedText" placeholder="enter text")
+        input(type="submit" name="submitText" value="submit")
+    = firstPost
